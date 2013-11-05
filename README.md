@@ -1,7 +1,7 @@
 fishshellConfig
 ===============
 
-my personal fishshell config dir
+my personal fishshell config dir http://fishshell.com
 
 ```sh
 $ cd ~/.config
