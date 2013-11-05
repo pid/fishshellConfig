@@ -7,3 +7,8 @@ my personal fishshell config dir http://fishshell.com
 $ cd ~/.config
 $ git clone git@github.com:pid/fishshellConfig.git fish
 ```
+
+example config.secret.fish:
+```sh
+set HOMEBREW_GITHUB_API_TOKEN "<INSERT API KEY HERE"
+``
