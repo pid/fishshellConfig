@@ -23,4 +23,4 @@ set PATH ~/perl5/perlbrew/bin ~/perl5/perlbrew/perls/perl-5.16.3/bin ~/bin /usr/
 set fish_path ~/.config/fish
 
 # load secret config (API keys, etc.)
-. $fish_path/config.secret.fish
+source $fish_path/config.secret.fish
