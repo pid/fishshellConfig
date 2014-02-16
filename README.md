@@ -27,7 +27,7 @@ Next, insert/paste the username in the form, than you have to open the clipboard
 
 ## pass-store
 
-Usage: pass-store <storename> <password-len>
+Usage: pass-store \<storename\> \<password-len\>
 
 Workflow:
 - Generates password for the account/storename and stored in first line
@@ -38,7 +38,7 @@ Workflow:
 
 ## pass-view
 
-Usage: pass-view <storename>
+Usage: pass-view \<storename\>
 
 - password and username are copied to clipboard.
 
