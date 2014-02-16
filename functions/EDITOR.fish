@@ -1,3 +1,3 @@
 function EDITOR
-    subl -n $argv
+	subl -n $argv
 end
