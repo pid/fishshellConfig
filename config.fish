@@ -14,8 +14,8 @@ set __fish_git_prompt_char_upstream_behind '↓'
 # nodejs
 set NODE_PATH /usr/local/lib/node_modules
 
-# homebrew
-set HOMEBREW_GITHUB_API_TOKEN "ed325d0b626c4c2caba4e1b6ee2a49d1fda32337"
+# homebrew / set in config.secret.fish
+set HOMEBREW_GITHUB_API_TOKEN ""
 
 # path
 set PATH ~/perl5/perlbrew/bin ~/perl5/perlbrew/perls/perl-5.16.3/bin ~/bin /usr/local/bin /usr/local/sbin /usr/local/share/npm/bin $PATH
