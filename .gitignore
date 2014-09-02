@@ -1,5 +1,4 @@
-fishd.*
-fish_history
-fish_read_history
+generated_completions/
 config.secret.fish
-generated_completions
+fish_history
+fishd.*
