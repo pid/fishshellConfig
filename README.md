@@ -9,7 +9,7 @@ $ git clone git@github.com:pid/fishshellConfig.git fish
 $ fish_update_completions
 ```
 
-# config.secret.fish
+# config.secret.load
 
 Add your secret keys here, ie.:
 ```sh
@@ -23,7 +23,7 @@ Note: You need some kind of clipboard-history tool like ClipMenu or Alfred
 - http://www.alfredapp.com/
 
 The functions will copy the username and password to the clipboard as two seperate clipboard-entries.
-Next, insert/paste the username in the form, than you have to open the clipboard history and select the previous clipboard-entry. Paste the password to the form. You got it! 
+Next, insert/paste the username in the form, than you have to open the clipboard history and select the previous clipboard-entry. Paste the password to the form. You got it!
 
 ## pass-store
 
@@ -46,5 +46,3 @@ Usage: pass-view \<storename\>
 (MIT)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pid/fishshellconfig/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-
