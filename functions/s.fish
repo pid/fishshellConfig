@@ -1,7 +1,7 @@
-function s -d 'open SublimeText'
+function s -d 'open atom.io editor'
 	if count $argv >/dev/null
-		/usr/local/bin/subl -n $argv
+		/usr/local/bin/atom -n $argv
 	else
-		/usr/local/bin/subl -n .
+		/usr/local/bin/atom -n .
 	end
 end

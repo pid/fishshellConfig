@@ -1,3 +1,3 @@
 function EDITOR
-	subl -n $argv
+    atom -n $argv
 end

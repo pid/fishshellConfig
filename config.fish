@@ -1,27 +1,20 @@
-# Fish git prompt
-set __fish_git_prompt_showdirtystate 'yes'
-set __fish_git_prompt_showstashstate 'yes'
-set __fish_git_prompt_showupstream 'yes'
-set __fish_git_prompt_color_branch yellow
+# Path to your oh-my-fish.
+set fish_path $HOME/.oh-my-fish
 
-# Status Chars
-set __fish_git_prompt_char_dirtystate '⚡'
-set __fish_git_prompt_char_stagedstate '→'
-set __fish_git_prompt_char_stashstate '↩'
-set __fish_git_prompt_char_upstream_ahead '↑'
-set __fish_git_prompt_char_upstream_behind '↓'
+# Theme
+set fish_theme mytheme
+#set fish_theme robbyrussell
 
-# nodejs
-set NODE_PATH /usr/local/lib/node_modules
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
+# Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
+# Example format: set fish_plugins autojump bundler
+set fish_plugins brew node mc
 
-# homebrew / set in config.secret.fish
-set HOMEBREW_GITHUB_API_TOKEN ""
-
-# path
-set PATH ~/perl5/perlbrew/bin ~/perl5/perlbrew/perls/perl-5.16.3/bin ~/bin /usr/local/bin /usr/local/sbin /usr/local/share/npm/bin $PATH
-
-set fish_path ~/.config/fish
-set -x GOPATH ~/go
+# Path to your custom folder (default path is $FISH/custom)
+set fish_custom $HOME/.config/fish
 
 # load secret config (API keys, etc.)
-source $fish_path/config.secret.fish
+#. $fish_custom/config.secret.fish
+
+# Load oh-my-fish configuration.
+. $fish_path/oh-my-fish.fish
